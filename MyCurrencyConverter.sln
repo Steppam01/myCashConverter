@@ -1,0 +1,58 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MyCurrencyConverter", "MyCurrencyConverter\MyCurrencyConverter.shproj", "{98BF3A50-F5D9-44A9-AA51-EFB9A9657669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCurrencyConverter.Droid", "Droid\MyCurrencyConverter.Droid.csproj", "{15956B97-40EA-4469-9924-01D19F54EC0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCurrencyConverter.iOS", "iOS\MyCurrencyConverter.iOS.csproj", "{8FC8D133-D03F-47FF-8050-FB9787740CDF}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MyCurrencyConverter\MyCurrencyConverter.projitems*{15956b97-40ea-4469-9924-01d19f54ec0c}*SharedItemsImports = 4
+		MyCurrencyConverter\MyCurrencyConverter.projitems*{8fc8d133-d03f-47ff-8050-fb9787740cdf}*SharedItemsImports = 4
+		MyCurrencyConverter\MyCurrencyConverter.projitems*{98bf3a50-f5d9-44a9-aa51-efb9a9657669}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|Any CPU = Release|Any CPU
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15956B97-40EA-4469-9924-01D19F54EC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15956B97-40EA-4469-9924-01D19F54EC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15956B97-40EA-4469-9924-01D19F54EC0C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{15956B97-40EA-4469-9924-01D19F54EC0C}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{15956B97-40EA-4469-9924-01D19F54EC0C}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{15956B97-40EA-4469-9924-01D19F54EC0C}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{15956B97-40EA-4469-9924-01D19F54EC0C}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{15956B97-40EA-4469-9924-01D19F54EC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15956B97-40EA-4469-9924-01D19F54EC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15956B97-40EA-4469-9924-01D19F54EC0C}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{15956B97-40EA-4469-9924-01D19F54EC0C}.Release|iPhone.Build.0 = Release|Any CPU
+		{15956B97-40EA-4469-9924-01D19F54EC0C}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{15956B97-40EA-4469-9924-01D19F54EC0C}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{8FC8D133-D03F-47FF-8050-FB9787740CDF}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{8FC8D133-D03F-47FF-8050-FB9787740CDF}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{8FC8D133-D03F-47FF-8050-FB9787740CDF}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{8FC8D133-D03F-47FF-8050-FB9787740CDF}.Debug|iPhone.Build.0 = Debug|iPhone
+		{8FC8D133-D03F-47FF-8050-FB9787740CDF}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{8FC8D133-D03F-47FF-8050-FB9787740CDF}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{8FC8D133-D03F-47FF-8050-FB9787740CDF}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{8FC8D133-D03F-47FF-8050-FB9787740CDF}.Release|Any CPU.Build.0 = Release|iPhone
+		{8FC8D133-D03F-47FF-8050-FB9787740CDF}.Release|iPhone.ActiveCfg = Release|iPhone
+		{8FC8D133-D03F-47FF-8050-FB9787740CDF}.Release|iPhone.Build.0 = Release|iPhone
+		{8FC8D133-D03F-47FF-8050-FB9787740CDF}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{8FC8D133-D03F-47FF-8050-FB9787740CDF}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEB1CFDD-E61D-4A5F-9675-3F279EFC4E5F}
+	EndGlobalSection
+EndGlobal
